@@ -1,0 +1,7 @@
+/.idea
+/vendor
+.env
+/nbproject/
+.vscode/*
+MACOSX/
+.DS_Store
