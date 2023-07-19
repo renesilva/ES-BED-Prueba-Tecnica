@@ -2,13 +2,10 @@
 
 namespace Eressea\Ejercicios;
 
-class EjercicioPrueba
+use PHPUnit\Framework\TestCase;
+
+class EjercicioPrueba extends TestCase
 {
-  public function __construct()
-  {
-
-  }
-
   /**
    * @param Integer[] $nums
    * @param Integer $target
