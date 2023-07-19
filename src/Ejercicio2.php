@@ -15,7 +15,6 @@ class Ejercicio2
    */
   public function obtenerPosiciones(array $puntaje): array
   {
-    $result = [];
-    return $result;
+    return [];
   }
 }

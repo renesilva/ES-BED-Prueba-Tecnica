@@ -2,16 +2,14 @@
 
 namespace Eressea\Ejercicios;
 
-use PHPUnit\Framework\TestCase;
-
-class EjercicioPrueba extends TestCase
+class EjercicioPrueba
 {
   /**
    * @param Integer[] $nums
    * @param Integer $target
    * @return Integer[]
    */
-  function twoSum(array $nums, int $target): array
+  public function twoSum(array $nums, int $target): array
   {
     $result = [];
     for ($i = 0; $i < count($nums); $i++) {

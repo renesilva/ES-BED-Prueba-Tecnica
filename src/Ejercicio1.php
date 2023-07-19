@@ -15,7 +15,6 @@ class Ejercicio1
    */
   public function interseccion(array $numeros1, array $numeros2): array
   {
-    $result = [];
-    return $result;
+    return [];
   }
 }

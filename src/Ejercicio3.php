@@ -16,7 +16,6 @@ class Ejercicio3
    */
   public function emailsEnviados(array $emails): int
   {
-    $result = 0;
-    return $result;
+    return 0;
   }
 }
